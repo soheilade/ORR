@@ -1,5 +1,6 @@
 # ORRS
 Open Recycling Recommender System (ORRS) aims to provide actionable steps to build a circular economy and help facilitate creation and usage of a drop-off point database as indicated most relevant by EU studies [1].  Therefore, ORRS aims to collect and integrate information about recycling knowledge, extract actionable insights, disseminate them to individuals and organizations via natural language interface, identify gaps and call for innovative solutions to address them. One of the biggest challenges in recycling practices is lack of data and yet the existing data are not well integrated and cannot be leveraged effectively on demand. ORRS aims to fine tune foundational language models for specific purpose of recycling questions. This in turn provides an accelerated path to circular economy and open new ways for contributing to it for everyone.
-![image](https://github.com/soheilade/ORR/assets/1499596/583d888e-5492-485a-9da2-3e43a7424310)
+![image](https://github.com/soheilade/ORR/assets/1499596/88cf2a1d-3c1f-45dd-aaac-3080e14f656e)
+
 
 [1]. European Commission, Directorate-General for Environment, Romagnoli, V., Bruijne, E., Drapeau, P. et al., Study on options for return schemes of mobile phones, tablets and other small electrical and electronic equipment in the EU, Publications Office of the European Union, 2022, https://data.europa.eu/doi/10.2779/237189
