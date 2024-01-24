@@ -1,0 +1,23 @@
+Open Recycling Recommender: ORR
+
+Abstract: Can you explain the whole project and its expected outcome(s).
+Humans are one of many residents of the planet. However, we borrow much more resources than other residents without the intention of returning them. The unprecedented consumption of natural resources by humans has proven to be unsustainable. The circular economy aims to discover and motivate recycling solutions.
+Open Recycling Recommender (ORR) aims to provide actionable steps to build a circular economy by laying the foundation of a data commons. ORR collects and integrates information about recycling knowledge, extracts actionable insights, disseminates them to individuals and industries, identifies gaps and calls for innovative solutions to address them. One of the biggest challenges in recycling practices is the lack of data. However, the existing data are poorly integrated and cannot be leveraged once needed. Also, the efforts to integrate parts of these data must be replicated over and over again. Thus, general questions about recycling largely remain unanswered. Therefore, recyclable goods end up in landfills. ORR aims to boost the creation of missing content and the practical usage of existing content. This can be done via continuous collection of relevant data in  a data commons format, training, and fine-tuning foundational language models to use them.
+
+Describe the ecosystem of the project, and how you will engage with relevant actors and promote the outcomes? Which actor will you involve, who should run or deploy your solution to make it a success.
+The project aims for individuals, SMEs, municipalities, large production lines, and anyone interested in recycling. They, in turn, generate the waste supply feed.
+
+Certified recyclers are governmental entities, recycling agents from suppliers and the public who are certified to collect a sort of waste. Eventually, This information will be taken from EU drop-off dataset [1] once published. However, I aim to leverage a crawler to collect this information. Of course, I aim to keep track of the progress and collaborate with relevant entities developing the drop-off database.
+In case of no certified demand, the framework will suggest case studies [3] and articles that have reused similar waste supply types.
+
+The question generator will get feedback regarding ORR recommendations. If the user cannot resolve the waste supply, it will generate a recycling question, which will crowdsource to the public to innovate. ORR aims to incentivize people to contribute to these questions by providing their knowledge about fighting a recycling gap. Moreover, municipalities will be aware of the waste that has gone to landfills since there was no answer to a question. 
+
+Freelancers, environmental activists, and individuals can submit innovative ideas to ORR questions. The submissions to crowdsourced questions will be reviewed and fed back into ORR for future waste supply recommendations. 
+
+
+
+
+
+[1]. European Commission, Directorate-General for Environment, Romagnoli, V., Bruijne, E., Drapeau, P. et al., Study on options for return schemes of mobile phones, tablets and other small electrical and electronic equipment in the EU, Publications Office of the European Union, 2022, https://data.europa.eu/doi/10.2779/237189
+[2]. https://github.com/soheilade/ORR
+[3]. https://www.c40.org/case-studies/
